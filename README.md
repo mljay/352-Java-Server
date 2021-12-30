@@ -7,4 +7,4 @@ A POST request for login credentials
 A GET request for the chat page 
 A POST request to add a messgae to the chatboard
 
-"client-test1.py" and "client-test2.py" are the client programs used to test the server.
+"client_test_1.py" and "client_test_2.py" are the client programs used to test the server.
