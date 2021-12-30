@@ -1,11 +1,4 @@
-/* Notes: 
- * This code is modified from the original to work with 
- * the CS 352 chat client:
- *
- * 1. added args to allow for a command line to the port 
- * 2. Added 200 OK code to the sendResponse near line 77
- * 3. Changed default file name in getFilePath method to ./ from www 
- */ 
+
 import java.io.*;
 import java.util.*;
 import java.net.ServerSocket;
@@ -17,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.lang.Math;
 
-// Read the full article https://dev.to/mateuszjarzyna/build-your-own-http-server-in-java-in-less-than-one-hour-only-get-method-2k02
 public class HTTPChatServer {
 
     public static void main( String[] args ) throws Exception {
